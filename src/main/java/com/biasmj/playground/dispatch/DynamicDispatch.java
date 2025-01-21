@@ -18,4 +18,15 @@ public class DynamicDispatch {
             System.out.println("Hello, lady!");
         }
     }
+
+    public static void main(String[] args){
+        Human man = new Man();
+        Human woman = new Woman();
+
+        man.sayHello();
+        woman.sayHello();
+
+        man = new Woman();
+        man.sayHello();
+    }
 }
