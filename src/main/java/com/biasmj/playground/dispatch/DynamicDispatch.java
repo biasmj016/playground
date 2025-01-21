@@ -1,4 +1,4 @@
-package com.biasmj.playground.dynamicDispatch;
+package com.biasmj.playground.dispatch;
 
 public class DynamicDispatch {
     static abstract class Human{
