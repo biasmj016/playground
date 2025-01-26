@@ -1,4 +1,4 @@
-package com.biasmj.playground.synchronous;
+package com.biasmj.playground.concurrency;
 
 public class VolatileTest {
     public static volatile int race = 0;
